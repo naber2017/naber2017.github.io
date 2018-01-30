@@ -1,0 +1,157 @@
+ {
+	"info":[
+		{
+	"img":"img/prog4.jpg",
+	"text1": "Web-Development",
+	"text2": "Different Technologies",
+	"topic": "web-design"
+		},
+	{
+	"img":"img/prog3.png",
+	"text1": "Usus Legentis Videntur",
+	"text2": "Photography, Holiday",
+	"topic": "photography"
+	},
+	{
+	"img":"img/prog5.png",
+	"text1": "Claritas Etiam Processus",
+	"text2": "Photography, Nature",
+	"topic": "photography"
+	},
+	{
+	"img":"img/proj6.png",
+	"text1": "Quam Nutamus Farum",
+	"text2": "Graphic Design, Mock-Up",
+	"topic": "illustration"
+	},
+	{
+	"img":"img/proj7.png",
+	"text1": "Usus Legentis Videntur",
+	"text2": "Photography, Holiday",
+	"topic": "photography"
+	},
+	{
+	"img":"img/prog8.jpg",
+	"text1": "Angular2 Project",
+	"text2": "Development, Holiday",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/project1.png",
+	"text1": "Android Project",
+	"text2": "Development, Holiday",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj9.jpg ",
+	"text1": "Android Mobile App",
+	"text2": "Development, Holiday",
+	"topic": "mobile-app"
+	},
+	{
+	"img":"img/proj10.jpg ",
+	"text1": "Mobile App",
+	"text2": "Development, Single API",
+	"topic": "mobile-app"
+	},
+	{
+	"img":"img/proj11.jpg ",
+	"text1": "Mobile Project",
+	"text2": "Development, UI",
+	"topic": "mobile-app"
+	},
+	{
+	"img":"img/proj12.jpg ",
+	"text1": "Photography Dev",
+	"text2": "Photography, Holidays",
+	"topic": "photography"
+	},
+	{
+	"img":"img/proj13.jpg ",
+	"text1": "Inspiration",
+	"text2": "Photography, Evening",
+	"topic": "photography"
+	},
+	{
+	"img":"img/proj14.jpg ",
+	"text1": "Inspiration",
+	"text2": "Photography, Evening",
+	"topic": "photography"
+	},
+	{
+	"img":"img/proj15.jpg ",
+	"text1": "Creative Ideas",
+	"text2": "Photography, Logic",
+	"topic": "photography"
+	},
+	{
+	"img":"img/proj16.jpg ",
+	"text1": "New Ideas",
+	"text2": "Web Design, Logic",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj17.png",
+	"text1": "Adaptive Layout",
+	"text2": "Web Design, Adaptive",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj18.jpg",
+	"text1": "Inspiration",
+	"text2": "Web Design, Adaptive",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj19.jpg",
+	"text1": "Inspiration",
+	"text2": "Web Design, Adaptive",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj20.jpg",
+	"text1": "Inspiration",
+	"text2": "Web Design, Adaptive",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj21.jpeg",
+	"text1": "Inspiration",
+	"text2": "Web Design, Adaptive",
+	"topic": "mobile-app"
+	},
+	{
+	"img":"img/proj22.jpg",
+	"text1": "Inspiration",
+	"text2": "Web Design, Adaptive",
+	"topic": "mobile-app"
+	},
+	{
+	"img":"img/proj23.jpg",
+	"text1": "Usus Legentis Videntur",
+	"text2": "Web Design, Illustration",
+	"topic": "illustration"
+	},
+	{
+	"img":"img/proj24.jpg",
+	"text1": "Claritas Etiam Processus",
+	"text2": "Web Design, Illustration",
+	"topic": "illustration"
+	},
+	{
+	"img":"img/proj25.jpg",
+	"text1": "Claritas Etiam Processus",
+	"text2": "Web Design, Illustration",
+	"topic": "web-design"
+	},
+	{
+	"img":"img/proj26.jpg",
+	"text1": "Claritas Nature",
+	"text2": "Web Design, Illustration",
+	"topic": "photography"
+	}
+	
+ 
+		
+		]
+}

@@ -1,0 +1,35 @@
+{
+	"info":[
+			{
+	"img":"img/post1.png",
+	"text1": "Web Apps",
+	"text2": "Claritas set etiam processus dynamicus, qui sequitar mututationem consuetudium.",
+	"day": "7",
+	"month":"Jun."
+	},
+		{
+	"img":"img/post2.png",
+	"text1": "Web-Development",
+	"text2": "Different Technologies Claritas set etiam processus dynamicus, qui sequitar mututationem consuetudium.",
+	"day": "25",
+	"month":"Feb."
+		},
+	{
+	"img":"img/post3.png",
+	"text1": "Usus Legentis Videntur",
+	"text2": "Claritas set etiam processus dynamicus, qui sequitar mututationem consuetudium.",
+	"day": "12",
+	"month":"Jun."
+	},
+	{
+	"img":"img/post4.png",
+	"text1": "Claritas Etiam Processus",
+	"text2": "Claritas set etiam processus dynamicus, qui sequitar mututationem consuetudium.",
+	"day": "31",
+	"month":"Oct."
+	}
+	
+	
+		
+	]
+}
