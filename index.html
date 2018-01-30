@@ -1,629 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<title>Waxom Project</title>
-	
-	<link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Raleway:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UPQODE PROJECT</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    
-  
-	  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
- 
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  </head>
+  <body>
+  <div class="body-hover"></div>
 <div class="container-fluid content">
-	<div class="row pic">
-	  <div class="container">
-	<!-------------------------NAV-BAR---------------------------------------------------->
-		  <div class="navbar navbar-default" >
-		 	<div class="navbar-header">
-				<div class="brand-pos">
-			      <img src="img/logo.png" alt="logo" class="logo">
-				  <a href="index.html" class="navbar-brand brand-font">Waxom</a>
+ 
+	<header class="row section1" id="home">
+<!--------------------------------NAVIGATION------------------------------------->
+		    <nav class="toggle_nav">
+		    	<ul class="toggle_nav_list">
+		    		<li>
+		    			<a href="#home">HOME</a>
+		    		</li>
+		    			
+		    		<li>	
+		    			<a href="#our_products">PRODUCTS</a>
+		    			<ul class="toggle_nav_sub">
+		    				<li><a href="#">Name Surname</a></li>
+		    				<li><a href="#">Nelson Noa</a></li>
+		    				<li><a href="#">Shoes</a>
+		    					<ul class="toggle_nav_sub_two">
+		    						<li><a href="#">Men Shoes</a></li>
+		    						 
+		    					</ul>
+		    				</li>
+		    				 
+		    			</ul>
+		    		</li>
+		    		<li>	
+		    			<a href="#">ABOUT</a>
+		    		</li>
+		    		<li>
+		    			<a href="#get_in_touch">CONTACT</a>
+		    		</li>
+		    	</ul>
+		    </nav>
+		    <nav class="header-nav ">
+				<div class="col-md-2">
+					<div class="header-brand"><a href="index.html"><span>UP</span>QODE</a></div>
 				</div>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-				<span class="sr-only">Open menu</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+			
+				<div class="col-md-offset-3 col-md-5">
+					<ul class="navbar-list" id="menu">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#our_products">Products</a>
+							<ul class="navbar_list_sub"  >
+								<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Name Surname</a></li>
+								<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Nelson Noa Chris</a></li>
+								<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Shoes</a>
+									<ul class="navbar_list_sub sub">
+										<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Men Shoes</a></li>
+										<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Nelson Noa Chris</a></li>
+										<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Name Surname</a></li>
+										<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Nelson Noa</a></li>
+										<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Nelson Noa Chris</a></li>
+									</ul>
+								
+								
+								
+								</li>
+								<li><a href="#"><span><i class="fa fa-angle-right act"></i><i class="fa fa fa-angle-double-right pass"></i></span>Nelson Noa</a></li>
+								
+							</ul>
+						
+						</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#get_in_touch">Contact</a></li>
+					</ul>
+                 <button class="c-hamburger c-hamburger--htx" id="menu_toggle">
+  					<span>toggle menu</span>
 				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-right " id="menu">
-				<ul class="nav navbar-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Portfolio </a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><a href="#">Shortcodes</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			<span class="search"><img src="img/search-logo.png" alt="search"></span>
-			</div>
-		  </div>	
-		
-<!-------------------------NAV-BAR---------------------------------------------------->			
-	 </div>
-<!-------------------------SLIDER----------------------------------------------------->
+                </div>				
+				<div class="col-md-2">
+					<div class="header-search">
+					 	 <input type="search" id="search-form">
+						 <span class="search-logo">
+						 	<img src="img/search.png" alt="search">
+						 </span>
+					</div>
+				</div>
+				
+			</nav>
+			
+			
+<!--------------------------------NAVIGATION------------------------------------->			 
+	
+<!--------------------------------SLIDER-HEADER---------------------------------->	
 	<div class="slider-wrapper">
 		<div id="carousel" class="carousel slide">
 		  <ol class="carousel-indicators">
 		  	<li class="active" data-target="#carousel" data-slide-to="0"></li>
 		  	<li data-target="#carousel" data-slide-to="1"></li>
 		  	<li data-target="#carousel" data-slide-to="2"></li>
-		  	<li data-target="#carousel" data-slide-to="3"></li>
-		  	<li data-target="#carousel" data-slide-to="4"></li>
+		  	 	 
 		  </ol>	
 			<div class="carousel-inner">
 				<div class="item active">
 						<div class="slider-text">
-							<p class="text1">Unique and Modern Design</p>
-							<p class="text2">Portfolio PSD Template</p>
-							<p class="text3">Nam liber tempor cum soluta nobis eleifend option conque nihil imper-diet doming id quod mazim placerat facer possim assum.</p>
+						    <img src="img/slide1.png" alt="">
+						    <div class="slider-gradient"></div>
+							<p class="slide-caption">CREATIVE<span> DESIGN AGENCY</span></p>
+					        <p class="slide-text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
 						</div>
 				</div>
 				<div class="item">
 					    <div class="slider-text">
-							<p class="text1">Flexibility and Reliability</p>
-							<p class="text2">Portfolio PSD Template</p>
-							<p class="text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore delectus eveniet odio deleniti et numquam consequatur soluta optio architecto dolores.</p>
+							<img src="img/slide1.png" alt="">
+							<div class="slider-gradient"></div>
+							<p class="slide-caption">Flexibility and Reliability</p>
+					         <p class="slide-text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
 						</div>
 				</div>
 				<div class="item">
 						<div class="slider-text">
-							<p class="text1">Powerful tools and scalability</p>
-							<p class="text2">Portfolio PSD Template</p>
-							<p class="text3">Nam liber tempor cum soluta nobis eleifend option conque nihil imper-diet doming id quod mazim placerat facer possim assum.</p>
+							<img src="img/slide1.png" alt="">
+							<div class="slider-gradient"></div>
+							<p class="slide-caption">Powerful tools and scalability</p>
+			 				 <p class="slide-text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
 						</div>
 				</div>
-				<div class="item">
-						<div class="slider-text">
-							<p class="text1">Powerful tools and scalability</p>
-							<p class="text2">Portfolio PSD Template</p>
-							<p class="text3">Nam liber tempor cum soluta nobis eleifend option conque nihil imper-diet doming id quod mazim placerat facer possim assum.</p>
-						</div>
-				</div>
-				<div class="item">
-						<div class="slider-text">
-							<p class="text1">Powerful tools and scalability</p>
-							<p class="text2">Portfolio PSD Template</p>
-							<p class="text3">Nam liber tempor cum soluta nobis eleifend option conque nihil imper-diet doming id quod mazim placerat facer possim assum.</p>
-						</div>
-				</div>
+	
 				
 			</div>
 			<a href="#carousel" class="left carousel-control posarr1" data-slide="prev">
-			   <img src="img/left-arrow.png" alt="left-slide">
+			   <img src="img/larrow.png">
 			</a>
 			<a href="#carousel" class="right carousel-control posarr2" data-slide="next">
-				<img src="img/right-arrow.png" alt="right-arrow">
+				<img src="img/rarrow.png">
 			</a>
 			
 		</div>		
 		
 	</div>
-			
-<!-------------------------SLIDER----------------------------------------------------->	
-</div>		
-
-<!------------------------CONTENT BLOCK #1-------------------------------------------->
- <div class="row block1 ">
-	<div class="container">
-		<div class="col-md-12 col-sm-12">
-			<ul class="list-prop">
-				<li>
-				  <a href="#">
-					<div class="list-logo pen"></div>
-					<span>Web & App Design</span>
-				  </a>
-				  <div class="list-text">
-					  Nam liber tempor cum soluta nobis eleifend option congue nihil Imperdiet doming Id quod mazim.
-				  </div>
-				  <span class="list-line logo1">
-					  	
-				  </span>
-				</li>
-				<li>
-				  <a href="#">
-					<div class="list-logo development"></div>
-					<span>Development</span>
-				  </a>
-				  <div class="list-text">
-					  Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh eulsmod tincidunt ut laoreet
-				  </div>
-				  <span class="list-line logo2">
-					  	
-				  </span>
-				</li>
-				<li>
-				  <a href="#">
-					<div class="list-logo customiz"></div>
-					<span>Customization</span>
-				 </a>
-					<div class="list-text">
-					  Nam liber tempor cum soluta nobis eleifend option congue nihil Imperdiet doming Id quod mazim.
-					</div>
-					<span class="list-line logo3">
-					  	
-					</span>
-				</li>
-				<li>
-				  <a href="#">
-					<div class="list-logo market"></div>
-					<span>Marketing</span>
-				  </a>
-				  <div class="list-text">
-					  Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh eulsmod tincidunt ut laoreet
-				 </div>
-				 <span class="list-line logo4">
-					  	 
-				</span>
-				</li>
-			</ul>		
-		</div>
-	</div>
-</div>
+<!--------------------------------SLIDER-HEADER---------------------------------->	 
+	</header>  
+<!---------------------------------SECTION #1 WHY CHOOSE US----------------------------->   	
+ <section id="choose_us">
+ 	<div class="choose_us">WHY <span>CHOOSE US</span></div>
+    <div class="choose_text">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus, </div>
+     <div class="row">
+     	<div class="container adaptive">
+     		<div class="col-xs-2 col-sm-2 col-md-2 reason-pos" >
+     			<div class="choose_reasons">
+     				<span><i class="fa fa-heart-o fa-4x" aria-hidden="true"></i></span>	
+     				<div class="reason-text">
+     					<div class="reason-title">YOUR TITLE</div>
+     					<div class="reason-description">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+     				    
+     				</div>
+     				<div class="reason-hover">
+     					<div class="see_more">SEE MORE</div>
+     					<a href="#"><span class="hover-link"><i class="fa fa-link" aria-hidden="true"></i></span></a>
+						<a href="#"><span class="hover-show"><i class="fa fa-search-plus" aria-hidden="true"></i></span></a>
+     				</div>	
+     			</div> 
+     		</div>
+     		<div class="col-xs-2 col-sm-2 col-md-2 reason-pos" >
+     			<div class="choose_reasons">
+     				<span><i class="fa fa-commenting-o fa-4x" aria-hidden="true"></i></span>		
+     					<div class="reason-text">
+							 <div class="reason-title">YOUR TITLE</div> 
+							 <div class="reason-description">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div> 
+     						
+     					</div>
+     				 <div class="reason-hover">
+     					<div class="see_more">SEE MORE</div>
+						 <a href="#"><span class="hover-link"><i class="fa fa-link" aria-hidden="true"></i></span></a>
+						 <a href="#"><span class="hover-show"><i class="fa fa-search-plus" aria-hidden="true"></i></span></a>
+     				</div>	
+     			</div> 
+     		</div>
+     		 
+     		<div class="col-xs-2 col-sm-2 col-md-2 reason-pos" >
+     			<div class="choose_reasons">
+     				<span><i class="fa fa-laptop fa-4x" aria-hidden="true"></i></span>	
+     					<div class="reason-text">
+     						<div class="reason-title">YOUR TITLE</div>
+     						<div class="reason-description">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+     					</div>
+     				 <div class="reason-hover">
+     					<div class="see_more">SEE MORE</div>
+						 <a href="#"><span class="hover-link"><i class="fa fa-link" aria-hidden="true"></i></span></a>
+						 <a href="#"><span class="hover-show"><i class="fa fa-search-plus" aria-hidden="true"></i></span></a>
+     				</div>	
+     			</div> 
+     		</div>
+     		<div class="col-xs-2 col-sm-2 col-md-2 reason-pos" >
+     			<div class="choose_reasons">
+     				<span><i class="fa fa-star-o fa-4x" aria-hidden="true"></i></span>		
+     					<div class="reason-text">
+							<div class="reason-title">YOUR TITLE</div>
+							<div class="reason-description">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+     					</div>
+     				<div class="reason-hover">
+     					<div class="see_more">SEE MORE</div>
+						<a href="#"><span class="hover-link"><i class="fa fa-link" aria-hidden="true"></i></span></a>
+						<a href="#"><span class="hover-show"><i class="fa fa-search-plus" aria-hidden="true"></i></span></a>
+     				</div>	
+     			</div>
+     		 </div>
+     			<div class="col-xs-2 col-sm-2 col-md-2 reason-pos" >
+     				<div class="choose_reasons">
+     					<span><i class="fa fa-flag-o fa-4x" aria-hidden="true"></i></span>		
+     						<div class="reason-text">
+     						<div class="reason-title">YOUR TITLE</div>
+     						<div class="reason-description">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+     						</div>
+     					<div class="reason-hover">
+     					    <div class="see_more">SEE MORE</div>
+							<a href="#"><span class="hover-link"><i class="fa fa-link" aria-hidden="true"></i></span></a>
+							<a href="#"> <span class="hover-show"><i class="fa fa-search-plus" aria-hidden="true"></i></span></a>
+     				    </div>	
+     				</div> 
+     		 </div>
+     	</div>
+     </div>
  	
-		
-<!------------------------CONTENT BLOCK #1-------------------------------------------->	
+ 	
+ </section>
+  	
+   	  	  	  	
+ <!---------------------------------SECTION #1 WHY CHOOSE US----------------------------->  
+  
+ <!---------------------------------SECTION #2 OUR PRODUCTS------------------------------>  
+  <section id="our_products">
+ 	<div class="row our_products_bg">
+ 	  	<div class="our_products">
+ 	  		<p id="products">OUR <span>PRODUCTS</span></p>
+ 	  	</div>
+ 		<div class="container">
+        	<div class="slider-products">
+            
+	            <input class="slide_proj" type="radio" name="point" id="slide1" checked>
+	            <input class="slide_proj" type="radio" name="point" id="slide2">
+	            <input class="slide_proj" type="radio" name="point" id="slide3">
+	            
+	             
+	         <div class="slider">
+				  <div class="slides slide_pr">
+				  		<ul class="project-list">
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  					  <img src="img/proj1.png" alt="proj1">
+				  					  <div class="project_caption">
+				  					  	<div class="block-title">TITLE</div>	
+				  					  	<div class="block-stat">Best Product</div>
+				  					  	<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					
+				  					<div class="block-product">
+				  						<img src="img/proj2.png" alt="proj2">
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj3.png" class="third" alt="proj3" >
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					   </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  					<img src="img/proj4.png" alt="proj4">
+				  					<div class="project_caption">
+				  					  	<div class="block-title">TITLE</div>	
+				  					  	<div class="block-stat">Best Product</div>
+				  					  	<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					</div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj5.png" alt="proj5">
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj6.png" class="third" alt="proj6">
+				  						<div class="project_caption">
+				  					  		<div class="block-title ">TITLE</div>	
+											<div class="block-stat ">Best Product</div>
+											<div class="block-description ">Duis bibendum diam non erat facilaisis en ter</div>
 
-<!------------------------CONTENT-BLOCK #2-------------------------------------------->
-	
-	<div class="row block2">
-	  <div class="container">
-		 <div class="row block21">
-		 	<div class="col-md-12">
-				<div class="block2-text1">Waxom is Realization of your Ideas.</div>
-				<div class="block2-text2">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</div>
-		 	</div>
-		 </div>
-		 
-		 <div class="row">
-	 	   <div class="col-md-12">
-		  
-   			<section id="dg-container" class="dg-container">
-				<div class="dg-wrapper">
-					<a href="#"><img src="img/left-accord.png" alt="image01"  class="img-responsive"></a>
-					<a href="#"><img src="img/center-accord.png" alt="image02" class="img-responsive"></a>
-					<a href="#"><img src="img/right-accord.png" alt="image03" class="img-responsive"></a>
-
-
-				</div>
-				<nav>
-					<span class="dg-prev" id="prev100"> </span>
-					<span class="dg-next" id="next100"> </span>
-				</nav>
-			</section>    
-   				    	    
-   				    	    	    
-   				    	    	    	    	    
-		 	</div>
-		 </div>
-		 
-	  </div>
-	</div>
-   
-	
-		
-				
-<!------------------------CONTENT-BLOCK #2-------------------------------------------->	
-
-<!------------------------CONTENT-BLOCK #3-------------------------------------------->
-	
-	<div class="row block3">
-	    <div class="container">
-		  
-		 		<div class="col-md-12 b3">
-					<div class="block3-text1"><span>Waxom</span> Multipurpose WordPress Theme</div>
-		 			<div class="block3-text2">Don't Forget to Rate the Template. Thanks so much!</div>
-		 			<button id="purchaise">PURCHASE NOW</button>
-		 		</div>	
-		 	</div>
-		  
-		 
-	   
-	</div>
- 			
-<!------------------------CONTENT-BLOCK #3-------------------------------------------->	
-
-<!------------------------CONTENT-BLOCK #4-------------------------------------------->
-
-<div class="row block4">
-	<div class="container">
-	<div class="col-md-12">
-		<div class="block4-text1">Our Latest Projects</div>
-		<div class="block4-text2">Investigationes demonstraverunt lectores legere me llus quod il lugunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium. </div>
-		
-	</div>
- 
-	<div class="row ">
-		<div class="col-md-12 nav-buttons">
-			<ul class="project-buttons" >
-				<li><button id="all" class="active-prog">All</button></li>
-				<li><button id="web-design">Web Design</button></li>
-				<li><button id="mobile-app">Mobile App</button></li>
-				<li><button id="illustration">Illustration</button></li>
-				<li><button id="photography">Photography</button></li>
-			</ul>	
-		</div>
-	</div>
-	
-
-	<div class="row projects">
-	  <ul class="prog-nav" id="projects" >
-<!-----------------------------------TEMPLATE FOR LOOP WITH PROJECTS----------------------------------------------->	   
-	  <!--
-	    <li>	
-	   
-		<div class="col-sm-6 col-md-4  block-mb">
-			<div class="project1">
-			    <div class="desc-img">
-			    	<div class="desc-link"></div>
-			    	<div class="desc-search"></div>
-			    				    	
-			    </div>	
-				<div class="pr1-img"><img src="img/project1.png" alt="" class="prog-img"></div>
-			      <div class="p1-description">
-				   
-					<div class="desc-text1">Claritas Etiam Processus</div>
-				    <div class="desc-text2">Photography, Nature</div>
-									
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  		</ul>	 	
+							
+						 
 				  </div>
-			</div>
-		</div>
-		 </li>
-		 -->
-<!-----------------------------------TEMPLATE FOR LOOP WITH PROJECTS----------------------------------------------->	   	     
-		
-		</ul>
-			<div class="col-sm-12 col-md-12 but-position">
-				<button class="button-prog">LOAD MORE</button>	
-			</div>
-	</div>
-	
-	</div>
-</div>	
-		
+				  <div class="slides slide_pr">
+							<ul class="project-list">
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  					  <img src="img/proj1.png" alt="proj1">
+				  					  <div class="project_caption">
+				  					  	<div class="block-title">TITLE #2</div>	
+				  					  	<div class="block-stat">Best Product</div>
+				  					  	<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					
+				  					<div class="block-product">
+				  						<img src="img/proj2.png" alt="proj2">
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE #2</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj3.png" class="third" alt="proj3" >
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE #2</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					   </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  					<img src="img/proj4.png" alt="proj4">
+				  					<div class="project_caption">
+				  					  	<div class="block-title">TITLE #2</div>	
+				  					  	<div class="block-stat">Best Product</div>
+				  					  	<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					</div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj5.png" alt="proj5">
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE #2</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj6.png" class="third" alt="proj6">
+				  						<div class="project_caption">
+				  					  		<div class="block-title ">TITLE #2</div>	
+											<div class="block-stat ">Best Product</div>
+											<div class="block-description ">Duis bibendum diam non erat facilaisis en ter</div>
 
-	
-<!------------------------CONTENT-BLOCK #4-------------------------------------------->	
-	
-<!------------------------CONTENT-BLOCK #5-------------------------------------------->
-<div class="row block5">
-	  
-		 <div class="text-vid">
-		 	<div class="col-md-12 video-text" > 
-		 	 	<div class="video-text1">Waxom Video Presentation</div>
-		 	 	<div class="video-text2">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</div>
-		 	 	<div class="video-text3">3:18</div>
-		 	<div class="play-button">
-		 		<img src="img/play-video.png" alt="play" class="play-vid">
-		 	</div>
-		 	
-		 	
-		 	
-		 	</div>
-		   <div class="full-button">
-		 		<img src="img/full.png" alt="full-screen" class="full-vid">
-		 	</div>
-			<video preload=none      tabindex="0" id="myVideo" controlsList="nodownload">
-                 <source src="vid/1.mp4">
-            </video>
-            </div>
-	   
-		 
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  		</ul>	 	
+				  </div>
+				  <div class="slides slide_pr">
+							<ul class="project-list">
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  					  <img src="img/proj1.png" alt="proj1">
+				  					  <div class="project_caption">
+				  					  	<div class="block-title">TITLE #3</div>	
+				  					  	<div class="block-stat">Best Product</div>
+				  					  	<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					
+				  					<div class="block-product">
+				  						<img src="img/proj2.png" alt="proj2">
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE #3</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj3.png" class="third" alt="proj3" >
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE #3</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					   </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  					<img src="img/proj4.png" alt="proj4">
+				  					<div class="project_caption">
+				  					  	<div class="block-title">TITLE #3</div>	
+				  					  	<div class="block-stat">Best Product</div>
+				  					  	<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					</div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj5.png" alt="proj5">
+				  						<div class="project_caption">
+				  					  		<div class="block-title">TITLE #3</div>	
+				  					  		<div class="block-stat">Best Product</div>
+				  					  		<div class="block-description">Duis bibendum diam non erat facilaisis en ter</div>
+				  					  	
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  			<li>
+				  				<div class="col-md-4">
+				  					<div class="block-product">
+				  						<img src="img/proj6.png" class="third" alt="proj6">
+				  						<div class="project_caption">
+				  					  		<div class="block-title ">TITLE #3</div>	
+											<div class="block-stat ">Best Product</div>
+											<div class="block-description ">Duis bibendum diam non erat facilaisis en ter</div>
+
+				  					    </div>
+				  					</div>
+				  				</div>
+				  			</li>
+				  		</ul>	 	
+				  </div>
+				  
+	         </div>	
+	         <div class="controls">
+				<label id="slide_1" for="slide1" onclick="radioB(this.id)"></label>
+				<label id="slide_2"for="slide2"  onclick="radioB(this.id)"></label>
+				<label id="slide_3" for="slide3" onclick="radioB(this.id)"></label>
+	     	 </div>
+       		</div>
+ 	    </div>
+ 		
+ 	</div>
+ 	
+ 	
+ </section>  	
  
-</div>
-
-
-
-
-<!------------------------CONTENT-BLOCK #5-------------------------------------------->
-
-	
-<!------------------------CONTENT-BLOCK #6-------------------------------------------->
-<div class="row block6">
-	<div class="container">
-		<div class="col-xs-5 col-sm-5 col-md-5">
-		 
+ 
+ 
+ <!---------------------------------SECTION #2 OUR PRODUCTS------------------------------> 
+ 
+ 
+ 
+ <!---------------------------------SECTION #3 GET IN TOUCH------------------------------> 
+ <section id="get_in_touch">
+ 	<div class="row">
+ 		<div id="contact">
+			GET IN <span>TOUCH</span>
+ 		</div>
+ 		<div class="contact_text">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. 
+Nullam at scelerisque tellus mattis volutpat rhoncus, 
 		</div>
-		<div class="col-xs-7 col-sm-7 col-md-7 ">
-			<div class="mob-info">
-				<div class="mob-header">Excellent for Mobile Devices </div>
-				<div class="mod-description">
-					Qisi enim ad minim, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores lefere me lius quod il legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-				</div>
-				<div class="mob-list">
-					<ul class="m-list">
-						<li><img src="img/arrow-mob.png">Nam liber tempor cum soluta nobis eleifend option;</li>
-						<li><img src="img/arrow-mob.png">Option cougue nihil imperdiet moming id quod mazim placerat facer;</li>
-						<li><img src="img/arrow-mob.png">Eodem modo typi, qui nobis videntur parum futurum;</li>
-						<li><img src="img/arrow-mob.png">Investigationes demonstraverunt lectores</li>
-					</ul>
-				</div>
-			</div>
-		
-		</div>
-	</div>
-</div>
-			
-						
-<!------------------------CONTENT-BLOCK #6-------------------------------------------->				
-
-<!------------------------CONTENT-BLOCK #7-------------------------------------------->
-<div class="row block7">
-	<div class="container">
-		<div class="col-xs-12 col-sm-12 col-md-12">
-			<ul class="counter">
-				<li>
-					<div class="list-logo clients-logo"></div>
-					<div class="counterList">3587</div>
-					<div class="counter-text">SATISFIED CLIENTS</div>
-				</li>
-				<li>
-					<div class="list-logo cups-logo"></div>
-					<div class="counterList">207</div>
-					<div class="counter-text">CUPS OF COFEE</div>
-				</li>
-				<li>
-					<div class="list-logo messages-logo"></div>
-					<div class="counterList">2500</div>
-					<div class="counter-text">BLOG POSTS</div>
-				</li>
-				<li>
-					<div class="list-logo likes-logo"></div>
-					<div class="counterList">873</div>
-					<div class="counter-text">LIKES</div>
-				</li>
-				<li>
-					<div class="list-logo launched-logo"></div>
-					<div class="counterList">900</div>
-					<div class="counter-text">WE LAUNCHED</div>
-				</li>
-			</ul>
-			
-			
-			
-			
-		</div>
-	</div>
-</div>
-	
-		
-			
-<!------------------------CONTENT-BLOCK #7-------------------------------------------->				
-						
-<!------------------------CONTENT-BLOCK #8-------------------------------------------->
-	
-<div class="row block8">
-	<div class="container">
-		
-		<div class="col-md-12">
-			<div class="text-block81">Recent Posts.</div>
-			<div class="text-block82">Investigationes demonstraverunt legere me lius quod il legunt saepius. Claritas est etiam processus dynamicus qui sequitur mutationem consuetudium.</div>
-	    </div>
-	 
-	 
-	 <div class="row">
-	<!--------------------------------POSTS----------------------------------> 	
-	 	<div class="col-sm-12 col-md-12">
-	 		<div id="posts-slider">
-	 			<div class="posts">
-				  <ul id="posts-list">
-              <!-----------------------------TEMPLATE FOR POSTS
-					  <li>
-                   
-				     <div class="img-hov">
-				     	
-				     </div>
-				       <div class="day_month">
-				       		<div class="day">30</div>
-				       		<div class="month">Sep.</div>
-				       	
-				       </div>
-					   <img src="img/post1.png">
-				       
-				       <div class="post-description">
-				       		<div class="post-text1">Lorem ipsum dolor sit amet</div>
-				       		<div class="post-text2">Claritas set etiam processus dynamicus, qui sequitar mututationem consuetudium.</div>
-				       </div>
-			      </li>
--->		 
-              </ul>
-              </div>
-	 			
-	 			
-	 		</div>
-	 		
-	 	</div>
-	<!--------------------------------POSTS----------------------------------> 	
-	    <div class="col-md-12">
-	      <div id="posts-nav">	
-	    	<button id="news-prev"></button>
-	    	<button id="news-next"></button>
-		  </div>
-	    </div>	
-	 </div>
-		
-		
-	</div>
-</div>	
-	
-	
-
-
-<!------------------------CONTENT-BLOCK #8-------------------------------------------->
-
-<!------------------------CONTENT-BLOCK #9-------------------------------------------->
-					
-<div class="row block9">
-	<div class="container">
-		<div class="col-sm-12 col-md-12">
-			<ul id="partners">
-				<li><img src="img/partner-logo1.png" alt="the barber" class="p-img"></li>
-				<li><img src="img/partner-logo2.png" alt="delicious" class="p-img"></li>
-				<li><img src="img/partner-logo3.png" alt="designers" class="p-img"></li>
-				<li><img src="img/partner-logo4.png" alt="royal" class="p-img"></li>
-			</ul>
-		</div>
-	</div>
-</div>							
-									
-											
-<!------------------------CONTENT-BLOCK #9-------------------------------------------->		
-
-						
-<!------------------------CONTENT-BLOCK #10------------------------------------------->
-<div class="row block10">
-	<div class="container">
-		<div class="col-md-12">
-			<div class="col-sm-6 col-md-3">
-				<div class="logo-footer">
-					<img src="img/logo.png" alt="Waxom logo">
-					Waxom
-				</div>
-				<div class="about-us">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</div>
-				<a href="#" class="read-more">Read More <img src="img/read-arrow.png"></a>
-				
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="topic-footer">Recent Posts</div>
-				<ul class="postwitter">
-					<li>
-						<div class="time">September 08, 2017</div>
-						<div class="pos-twit-text">Lorem ipsum dolor sit amet, consectetuer apipiscing elit</div>
-						<div class="footer-line"></div>
-					</li>
-					<li>
-						<div class="time">March 23, 2017</div>
-						<div class="pos-twit-text">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-						<div class="footer-line"></div>
-					</li>
-					<li>
-						<div class="time">February 25, 2017</div>
-						<div class="pos-twit-text">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</div>
-					</li>
-				</ul>
-				
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="topic-footer">Our Twitter</div>
-				<ul class="postwitter">
-					<li>
-						
-						<div class="pos-twit-text twit"><span>@waxom</span> Cum soluta nobis eleifend option congue nigil imperdiet doming</div>
-						<div class="time">3 mins ago</div>
-						<div class="footer-line"></div>
-					</li>
-					<li>
-						
-						<div class="pos-twit-text twit">Mirum est <span>#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</div>
-						<div class="time">5 hours ago</div>
-						<div class="footer-line"></div>
-					</li>
-					<li>
-						
-						<div class="pos-twit-text twit">Soluta nobis option bitrino neca tura</div>
-						<div class="time">20 days ago</div>
-					</li>
-				</ul>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="topic-footer">Dribbble Widget</div>
-				<div class="drib-img">
-				 <div class="col-xs-6 col-sm-6 col-md-6">
-				 	<img src="img/dribble-w1.png">
-				 	<div class="drib-hov">
-				 		<img src="img/search-dribble.png"  class="search-dribble">
-				 	</div>
-				 </div>
-				 <div class="col-xs-6 col-sm-6 col-md-6">
-				 	<img src="img/dribble-w2.png">
-				 	<div class="drib-hov">
-				 		<img src="img/search-dribble.png"  class="search-dribble">
-				 	</div>
-				 </div>
-				 <div class="col-xs-6 col-sm-6 col-md-6">
-					 <img src="img/dribble-w3.png">
-					 <div class="drib-hov">
-					 	<img src="img/search-dribble.png"  class="search-dribble">
-					 </div>
-				</div>
-				 <div class="col-xs-6 col-sm-6 col-md-6">
-					 <img src="img/dribble-w4.png">
-					 <div class="drib-hov">
-					 	<img src="img/search-dribble.png"  class="search-dribble">
-					 </div>
-				 </div>
-			</div>
-			</div>
-			
-			
-			
-			
-		</div>
-	</div>
-</div>																																			
-																																			
-																																			
-																																			
-																																			
-																																			
-<!------------------------CONTENT-BLOCK #10------------------------------------------->																					
-																																																	<!------------------------CONTENT-BLOCK #11------------------------------------------->
-<div class="row block11">
-	<div class="container">
-    	<div class="col-sm-5 col-md-5">
-    		<div class="footer-nav">
-    			<div class="copy">Copyright © 2018 Waxom</div>
-    			 <ul class="fnav">
-    			 	<li><a href="#">Privacy Policy</a></li>
-    			 	<li><a href="index.html">Home</a></li>
-    			 	<li><a href="">Support</a></li>
-    			 	
-    			 </ul>
-    		</div>
-    	</div>	
-    	<div class="col-md-3"></div>
-    	<div class="col-sm-4 col-md-4">
-			<div id="footer-info">Created by  <span id="author"><a href="https://www.linkedin.com/in/michaelnaberezhnyi/">M.Naberezhnyi</a></span></div>
-    	</div>	
-		
-
-	</div>
-</div>
-																																																																								<!------------------------CONTENT-BLOCK #11------------------------------------------->																																																																																				
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="js/prog.js"></script>
-<script src="js/posts.js"></script>
-<script src="js/main.js"></script>	
-<script src="js/bootstrap.js"></script>	
-<script src="js/jcarousellite_1.0.1.min.js"></script> 
-<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>		
-<script type="text/javascript" src="js/jquery.gallery.js"></script>
-<script type="text/javascript">
-      $(function() {
-        $('#dg-container').gallery({
-          autoplay	:	true
+ 		<div id="contact-map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('contact-map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
         });
-      });
-    </script/>
-</body>
+      }
+    </script>
+ 		<div class="map-overlay"></div>
+ 		<div class="contact-form">
+ 			<form method="post" id="form_feedback">
+ 				<input type="text" placeholder="Full Name" id="name_sur" required>
+ 				<input type="email" placeholder="E-mail Address" id="email-address"   required>
+ 				 
+ 				<textarea name="message" id="contact_message"  placeholder="Message" required></textarea>
+ 				<input type="submit" name="feedback_submit" id="feedback_submit" value="Send">
+ 				<input type="checkbox" id="contact_check" required><label for="contact_check">I like your company</label>
+ 				 <div class="square"></div>
+ 				  <img src="img/arrow.png" id="dropdown">
+ 				 <div class="email-block">
+ 				 	<ul class="mails">
+ 				 	    
+ 				 		<li>name@mail.com</li>
+ 				 		<li>yourname@mail.com</li>
+ 				 	</ul>
+ 				 </div>	 
+ 			</form>
+ 			<div class="contact-info">
+ 			           
+ 			 <p>69/A, Some Street Name
+             Your City, code 01234 
+             Country Name</p>
+
+				<p>+880 123 456 78 98
+				+860 987 648 74 95</p>
+
+			<p>company@mail.com
+			sales@mail.com
+ 			</p>
+ 		   </div>
+ 		</div>
+ 	 
+ 	</div>
+ </section>	 	  	
+ 
+ <!---------------------------------SECTION #3 GET IN TOUCH------------------------------> 
+
+<!--------------------------------------FOOTER-------------------------------------------> 	
+ <div class="row"> 
+ <footer >
+ 	 
+ 		<div class="col-md-6"><div class="footer-rights">Copyright © Company. All Rights Reserved  2016</div></div>
+ 		<div class="col-md-6">
+			<div class="social">
+				<ul class="footer-social">
+					<li><a href="#"><img src="img/fc.png" alt="facebook"></a></li>
+					<li><a href="#"><img src="img/gp.png" alt="google_plus"></a></li>
+					<li><a href="#"><img src="img/twit.png" alt="twitter"></a></li>
+					<li><a href="#"><img src="img/drib.png" alt="drib"></a></li>
+				</ul>
+			</div>
+ 		</div>
+ 		
+ 		
+ 	 
+ 	
+ </footer>
+ </div>
+ </div>
+ 
+ <!--------------------------------------FOOTER-------------------------------------------> 	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	 <script src="js/main.js"></script>
+	 <script src="js/project-slider.js"></script>
+	
+	<!-- <script src="js/pixel_perf.js"></script>--> 
+     <script src="js/contact.js"></script>
+     <script src="js/bootstrap.min.js"></script> 
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWLEetiZKQFWR0ac504CQmAa8cnQTu8Xo &callback=initMap"
+    async defer></script>
+ </body>
 </html>
