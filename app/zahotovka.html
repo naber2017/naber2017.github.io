@@ -1,0 +1,37 @@
+<form method="post" id="form_feedback">
+ 	<p id="reg_message"><?php echo  $_SESSION["message"]; ?></p>
+ 	<p class="feedback-title">Зворотній зв'язок</p>
+ 	<div id="block-form-feedback">
+ 		<ul id="form-feedback">
+ 			
+ 		 
+ 		   		
+ 		  <li>
+ 			<label>Ім'я</label>
+ 			<span class="star">*</span>
+ 			<input type="text" name="feedback_name" id="feedback_name">
+ 		 </li>
+ 		  
+ 		  <li>
+ 			<label>E-mail</label>
+ 			<span class="star">*</span>
+ 			<input type="email" name="feedback_email" id="feedback_email">
+ 		 </li>
+ 		   <li>
+ 			<label>Тема</label>
+ 			<span class="star">*</span>
+ 			<input type="text" name="feedback_topic" id="feedback_topic">
+ 		 </li>
+ 		  <li>
+ 			<label>Повідомлення</label>
+ 			<span class="star">*</span>
+			  <textarea name="feedback_message" id="feedback_message"></textarea>
+ 		 </li>
+ 	 
+ 		</ul>
+ 		
+ 	</div>
+ 	<div id="feedback-block">
+<input type="submit" name="feedback_submit" id="feedback_submit" value="Відправити">
+</div>
+ </form>
