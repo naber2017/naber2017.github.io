@@ -192,7 +192,8 @@ body {
 /*-----------------------------ABOUT ME--------------------------------*/
 /*-----------------------------RESUME-----------------------------------*/
 #resume {
-  height: 900px;
+  min-height: 900px;
+  height: auto;
   padding-top: 35px;
   margin-left: -15px;
   margin-right: -15px; }
@@ -260,28 +261,63 @@ body {
   #resume #skills img {
     margin-bottom: 45px;
     height: 50%; }
+  #resume #show_more {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F3AEAE;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-family: 'Raleway-Regular';
+    font-size: 20px;
+    border-radius: 10px; }
 
 /*-----------------------------RESUME-----------------------------------*/
 /*-----------------------------SERVICES---------------------------------*/
 #services {
-  height: 716px;
+  height: 708px;
   border: 1px solid purple;
-  padding-top: 35px;
+  position: relative;
   margin-left: -15px;
-  margin-right: -15px; }
+  margin-right: -15px;
+  position: relative; }
   #services .services {
+    position: absolute;
     text-align: center;
     font-size: 26px;
-    font-weight: bold; }
+    font-weight: bold;
+    top: 0;
+    color: white;
+    font-family: 'Lato-Bold';
+    left: 45%;
+    margin-top: 35px; }
+  #services #service-bg {
+    width: 100%; }
+  #services .service_line {
+    width: 90px;
+    border: 0.5px solid white;
+    position: absolute;
+    left: 46.5%;
+    top: 10%; }
+  #services .pos {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white; }
 
 /*-----------------------------SERVICES---------------------------------*/
 /*-----------------------------PORTFOLIO--------------------------------*/
 #portfolio {
-  height: 716px;
+  height: 1000px;
   border: 1px solid purple;
   padding-top: 35px;
   margin-left: -15px;
-  margin-right: -15px; }
+  margin-right: -15px;
+  position: relative; }
   #portfolio .portfolio {
     text-align: center;
     font-size: 26px;
