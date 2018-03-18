@@ -349,10 +349,32 @@
 
 <!-----------------CONTACTS------------------------------------------------->
 <section id="contacts">
+<img src="img/contact-bg.png" id="contact-bg">
 <div class="container">
-	<div class="contacts">CONTACTS</div>
-  	<div class="contacts_subtitle">If you want to order a site, leave me a message and i'll contact you</div>
-	  
+	
+ 	<div class="contacts">CONTACTS</div>
+ 	 
+  	<div class="contacts_subtitle">
+  		 
+  		If you want to order a site, leave me a message and i'll contact you
+  	 
+  	</div>
+  	<!--<hr class="contact_line"> -->
+  	
+  	<form action="#" method="post" id="contact_form">
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<input type="text" name="form_name" id="form_name" placeholder="NAME*">
+			<input type="text" name="form_email" id="form_email" placeholder="E-MAIL*">
+			<input type="text" name="form_subject" id="form_subject" placeholder="SUBJECT*">
+		</div>
+		<div class="col-md-8 col-sm-8  col-xs-12">
+			<textarea name="message" id="message" placeholder="YOUR MESSAGE*" ></textarea>
+		</div>
+		<div class="col-md-12 col-xs-12">
+			<input type="submit" name="form_submit" id="form_submit" value="SEND MESSAGE">
+		</div>
+  	</form>
+	   
 </div>
 
 </section>
@@ -409,5 +431,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="gulpfile.js"></script>
     <script src="js/main.js"></script>
+    
   </body>
 </html>
