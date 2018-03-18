@@ -280,11 +280,12 @@ body {
 /*-----------------------------SERVICES---------------------------------*/
 #services {
   height: 708px;
-  border: 1px solid purple;
   position: relative;
   margin-left: -15px;
   margin-right: -15px;
-  position: relative; }
+  position: relative;
+  -webkit-box-shadow: 0px 6px 12px lightgray;
+  box-shadow: 0px 6px 12px lightgray; }
   #services .services {
     position: absolute;
     text-align: center;
@@ -305,9 +306,38 @@ body {
     top: 10%; }
   #services .pos {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 5%;
+    width: 85%;
     color: white; }
+  #services .service {
+    position: relative;
+    border: 4px solid white;
+    width: 100%;
+    height: 187px;
+    margin-bottom: 55px;
+    border-radius: 15px; }
+    #services .service .service_item {
+      width: 70%;
+      position: absolute;
+      right: 5%;
+      top: 9%;
+      font-family: 'Lato-Bold';
+      font-size: 17px;
+      text-align: center; }
+    #services .service .service_description {
+      width: 70%;
+      position: absolute;
+      right: 5%;
+      top: 42%;
+      font-family: 'Raleway-Regular';
+      font-size: 16px;
+      text-align: center; }
+    #services .service .service_logo {
+      width: 20%;
+      position: absolute;
+      left: 5%;
+      top: 30%; }
 
 /*-----------------------------SERVICES---------------------------------*/
 /*-----------------------------PORTFOLIO--------------------------------*/
