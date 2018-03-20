@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".name").animated("fadeInDown","fadeOutDown"),$(".about_info").animated("fadeInUp","fadeOutDown"),$(".personal_info ").animated("fadeInUp","fadeOutDown"),$(".contact_info ").animated("fadeInUp","fadeOutDown")});
