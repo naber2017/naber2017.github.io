@@ -98,7 +98,9 @@ body {
     top: 0;
     width: 100%;
     max-width: 1920px;
-    height: 71px; }
+    height: 71px;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s; }
     #section1 .nav_bar .logo {
       color: white;
       font-family: 'Indie';
@@ -166,23 +168,35 @@ body {
     text-align: justify;
     line-height: 1.8;
     font-size: 15px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s; }
   #about_me .personal_info {
     font-family: 'Raleway-Regular';
     text-align: justify;
     line-height: 1.8;
-    font-size: 15px; }
+    font-size: 15px;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s; }
   #about_me .contact_info {
     font-family: 'Raleway-Regular';
-    line-height: 1.8; }
+    line-height: 1.8;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s; }
     #about_me .contact_info span {
       font-weight: bold;
       color: black; }
   #about_me .my_photo {
     width: 260px;
-    margin-left: 12%; }
+    margin-left: 12%;
+    -webkit-animation-delay: 0.27s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0.27s; }
   #about_me .block_social {
-    margin-top: 15px; }
+    margin-top: 15px;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s; }
     #about_me .block_social a {
       text-decoration: none; }
       #about_me .block_social a i {
