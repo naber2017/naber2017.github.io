@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".nav-toggle").click(function(){$(".menu").fadeIn(),$("#social").css("margin-left","7px")})}),$(".menu").click(function(){$(".sub_menu").fadeIn(),$("#social").css("width","47%"),$("#sign_join").css("width","47%")});

@@ -1,0 +1,91 @@
+/*-----------------------------BEGIN-----------------------------------*/
+html {
+  width: 100%;
+  max-width: 100%;
+  min-width: 320px; }
+
+body {
+  position: relative;
+  max-width: 100%;
+  min-width: 320px;
+  width: 100%;
+  background-color: #536A82; }
+
+.content {
+  min-width: 320px;
+  max-width: 930px;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid red;
+  height: 1480px;
+  position: relative; }
+
+/*-----------------------------BEGIN-----------------------------------*/
+/*-----------------------------HEADER-NAVBAR---------------------------*/
+.header-navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative; }
+  .header-navbar .nav-toggle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #56CCC8;
+    z-index: 10; }
+    .header-navbar .nav-toggle:hover {
+      cursor: pointer;
+      background-color: red; }
+  .header-navbar .nav-list {
+    width: 100%;
+    line-height: 60px;
+    margin-left: 100px; }
+    .header-navbar .nav-list li {
+      list-style-type: none;
+      display: inline;
+      margin-right: 45px; }
+      .header-navbar .nav-list li:last-child {
+        margin-right: 0; }
+      .header-navbar .nav-list li a {
+        text-decoration: none;
+        color: black; }
+  .header-navbar .nav-social {
+    border: 1px solid red;
+    width: 100%;
+    line-height: 60px; }
+    .header-navbar .nav-social li {
+      list-style-type: none;
+      display: inline; }
+
+/*-----------------------------HEADER-NAVBAR---------------------------*/
+/*-----------------------------MENU-------------------------------------*/
+.menu {
+  border: 1px solid red;
+  width: 24%;
+  height: 675px;
+  background-color: #ffffff;
+  float: left;
+  display: none; }
+
+.sub_menu {
+  border: 1px solid white;
+  width: 25.8%;
+  height: 675px;
+  float: left;
+  margin-right: 15px;
+  display: none; }
+
+/*-----------------------------MENU-------------------------------------*/
+#social {
+  width: 49%;
+  height: 315px;
+  border: 1px solid yellow;
+  float: left;
+  margin-bottom: 14px; }
+
+#sign_join {
+  width: 50%;
+  height: 344px;
+  border: 1px solid yellow;
+  float: left;
+  margin-left: 7px; }
