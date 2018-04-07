@@ -688,26 +688,18 @@ body {
 /*-----------------------------MODAL-----------------------------------------*/
 .modal {
   position: fixed;
-  /* Stay in place */
   z-index: 1000;
-  /* Sit on top */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */ }
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .modal-body {
   padding: 2px 16px; }
 
-/* Modal Content */
 .modal-content {
   position: relative;
   background-color: #ffffff;
@@ -774,7 +766,6 @@ input[type=submit] {
 .error {
   color: red; }
 
-/* Add Animation */
 @-webkit-keyframes animatetop {
   from {
     top: -300px;
