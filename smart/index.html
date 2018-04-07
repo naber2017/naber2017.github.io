@@ -281,10 +281,10 @@ About</a></li>
 
 	
   <div class="modal-body"> 
-  	<form id="form"  >
+  	<form id="form" method="post" action="handler.php">
   	   <input type="text" name="user_name" id="user_name" placeholder="Your name"  >
-  	   <input type="text" name="user_email" id="user_email" placeholder="Your email" >
-  	   <textarea id="user_message">Your question...</textarea>
+  	   <input type="email" name="user_email" id="user_email" placeholder="Your email" >
+  	   <textarea id="user_message" name="user_message">Your question...</textarea>
   	   <input type="submit" value="SUBMIT" id="submit">
 	</form>
   	</div>
@@ -308,6 +308,7 @@ About</a></li>
   <script src="js/mobilyslider.js"></script>
   <script src="js/modal.js"></script>
   <script src="js/jquery.validate.js"></script>
-  
+  <script src="js/jquery.form.js"></script>
+  <script src="js/form.js"></script>
   </body>
 </html>

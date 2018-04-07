@@ -85,6 +85,8 @@ body {
       cursor: pointer;
       border: 0;
       background: url("../img/toggle_active.png"); }
+  .header-navbar .active_toggle {
+    background: url("../img/toggle_active.png"); }
   .header-navbar .nav-list {
     width: 100%;
     line-height: 60px;
@@ -713,7 +715,8 @@ body {
   padding: 0;
   border-radius: 0px;
   top: 20%;
-  height: 381px;
+  min-height: 381px;
+  height: auto;
   width: 299px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -767,6 +770,9 @@ input[type=submit] {
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 300; }
+
+.error {
+  color: red; }
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
