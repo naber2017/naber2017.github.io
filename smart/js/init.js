@@ -1,0 +1,1 @@
+$(function(){$(".slider_content").mobilyslider({transition:"fade",autoplay:!0,autoplaySpeed:3e3,animationSpeed:500,bullets:!0,pauseOnHover:!0,arrowsHide:!1})});
