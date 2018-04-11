@@ -10,19 +10,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="animate.css">
-     
+    <link rel="icon" type="image/png"  sizes="16x16" href="favicon-16x16.png">
     
     <title>My Portfolio</title>
-    <!-- Bootstrap -->
-	
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	</head>
+	</head> 
 	<body>
 <div class="container-fluid content">
 <!-----------------HEADER-SECTION------------------------------------------->
@@ -70,6 +61,13 @@
 				<div class="col-md-1">
 					<div class="languages">
 						<a href="#"><span><img src="img/globe.png"></span>EN</a>								
+					</div>
+					<div class="languages_list">
+						<ul class="lang_list">
+							<li><img src="img/english.jpg" alt="english_logo">EN</li>
+							<li><img src="img/ukranian.jpg" alt="russian_logo">UA</li>
+							<li><img src="img/russian.gif" alt="ukranian_logo">RU</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -313,29 +311,40 @@
 	<hr class="portfolio_line"> 
 	
 	<div class="proj_animation">
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
 			<div class="project">
-				<img src="img/proj1.png" alt="project1" class="proj_logo">
+				<img src="img/proj1.png" alt="project1" class="proj_logo img-responsive">
+				<div class="proj_hover"></div>
+				 
+				<a href="#"><i class="fa fa-search fa-4x" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
 			<div class="project">
-				<img src="img/proj2.png" alt="project2" class="proj_logo">
+				<img src="img/proj2.png" alt="project2" class="proj_logo img-responsive">
+				<div class="proj_hover"></div>
+				<a href="#"><i class="fa fa-search fa-4x" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
 			<div class="project">
-				<img src="img/proj3.png" alt="project3" class="proj_logo">
+				<img src="img/proj3.png" alt="project3" class="proj_logo img-responsive">
+				<div class="proj_hover"></div>
+					<a href="#"><i class="fa fa-search fa-4x" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
 			<div class="project">
-				<img src="img/proj4.png" alt="project4" class="proj_logo">
+				<img src="img/proj4.png" alt="project4" class="proj_logo img-responsive">
+				<div class="proj_hover"></div>
+					<a href="#"><i class="fa fa-search fa-4x" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
 			<div class="project">
-				<img src="img/proj5.png" alt="project5" class="proj_logo">
+				<img src="img/proj5.png" alt="project5" class="proj_logo img-responsive">
+				<div class="proj_hover"></div>
+					<a href="#"><i class="fa fa-search fa-4x" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
@@ -368,15 +377,15 @@
   	
   	<form action="#" method="post" id="contact_form">
 		<div class="col-md-4 col-sm-4 col-xs-12">
-			<input type="text" name="form_name" id="form_name" placeholder="NAME*">
-			<input type="text" name="form_email" id="form_email" placeholder="E-MAIL*">
-			<input type="text" name="form_subject" id="form_subject" placeholder="SUBJECT*">
+			<input type="text" name="form_name" id="form_name" placeholder="NAME*" required>
+			<input type="email" name="form_email" id="form_email" placeholder="E-MAIL*" required>
+			<input type="text" name="form_subject" id="form_subject" placeholder="SUBJECT">
 		</div>
 		<div class="col-md-8 col-sm-8  col-xs-12">
-			<textarea name="message" id="message" placeholder="YOUR MESSAGE*" ></textarea>
+			<textarea name="message" id="message" placeholder="YOUR MESSAGE*" required></textarea>
 		</div>
 		<div class="col-md-12 col-xs-12">
-			<input type="submit" name="form_submit" id="form_submit" value="SEND MESSAGE">
+			<input type="submit" name="form_submit" id="form_submit" value="SEND MESSAGE" required>
 		</div>
   	</form>
 	   
@@ -429,15 +438,16 @@
 
 </div>                                      
  
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
     <script src="js/bootstrap.min.js"></script>
     <script src="gulpfile.js"></script>
     <script src="js/main.js"></script>
     <script src="js/animate-css.js"></script>
     <script src="js/common.js"></script>
     <script src="js/waypoints.min.js"></script>
+  
   </body>
 </html>
